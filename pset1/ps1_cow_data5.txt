@@ -1,0 +1,6 @@
+Milkshake,40
+MooMoo,50
+Horns,25
+Boo,20
+Lotus,40
+Miss Bella,25

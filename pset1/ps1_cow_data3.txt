@@ -1,0 +1,8 @@
+Starlight,54
+Buttercup,11
+Coco,59
+Willow,59
+Luna,41
+Betsy,39
+Abby,28
+Rose,42

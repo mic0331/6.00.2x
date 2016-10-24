@@ -1,0 +1,10 @@
+Lotus,10
+Miss Bella,15
+Louis,45
+Patches,60
+Horns,50
+Polaris,20
+Clover,5
+MooMoo,85
+Milkshake,75
+Muscles,65
