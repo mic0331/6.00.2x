@@ -10,6 +10,7 @@ import ps1_partition as partition
 # ================================
 
 def load_cows(filename):
+
     """
     Read the contents of the given file.  Assumes the file contents contain
     data in the form of comma-separated cow name, weight pairs, and return a
@@ -34,6 +35,7 @@ def load_cows(filename):
 
 # Problem 1
 def greedy_cow_transport(cows, limit=10):
+
     """
     Uses a greedy heuristic to determine an allocation of cows that attempts to
     minimize the number of spaceship trips needed to transport all the cows. The
@@ -74,6 +76,7 @@ def greedy_cow_transport(cows, limit=10):
 
 # Problem 2
 def brute_force_cow_transport(cows, limit=10):
+
     """
     Finds the allocation of cows that minimizes the number of spaceship trips
     via brute force.  The brute force algorithm should follow the following method:
@@ -93,6 +96,7 @@ def brute_force_cow_transport(cows, limit=10):
     transported on a particular trip and the overall list containing all the
     trips
     """
+
     p_set = partition.get_partitions(cows)
     best_set = None
     nbr_of_trip = len(cows)
@@ -107,6 +111,7 @@ def brute_force_cow_transport(cows, limit=10):
 
 # Problem 3
 def compare_cow_transport_algorithms():
+
     """
     Using the data from ps1_cow_data.txt and the specified weight limit, run your
     greedy_cow_transport and brute_force_cow_transport functions here. Use the
@@ -133,5 +138,5 @@ cows = load_cows("ps1_cow_data5.txt")
 limit = 100
 print(cows)
 
-#print(greedy_cow_transport(cows, limit))
+print(greedy_cow_transport(cows, limit))
 print(brute_force_cow_transport(cows, limit))
